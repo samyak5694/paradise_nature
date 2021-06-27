@@ -1,0 +1,100 @@
+
+  <!DOCTYPE html>
+<!-- document_head.html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<link rel="icon" href="C:\Users\dhava\OneDrive\Pictures\Paradise.jpg">
+    <!--base href="Welcome to ParadiseNutrition.com"-->
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/tablet.css"
+          media="screen and (max-width: 900px)">
+    <script src="scripts/rotate.js"></script>
+    <script src="scripts/menus.js"></script>
+    <script src="scripts/bmiFormProcess.js"></script>
+    <script src="scripts/bmiFormValidate.js"></script>
+    <script src="scripts/bmiCalculate.js"></script>
+    <script src="scripts/feedbackFormValidate.js"></script>
+    <title>Paradise Nutrition</title>
+  </head>
+
+  <!-- index.html for ch07/nature2 -->
+  <body bgcolor="#DBFAD6" onload="startRotation()">
+    <header>
+      <!-- logo.html -->
+      <div id="logo">
+          <img src="C:\Users\dhava\OneDrive\Pictures\Paradise.jpg"
+               alt="Paradise Protein"
+               width="150"
+               height="100">
+      </div>
+
+      <!-- menus.html -->
+    <nav onmouseout="hide()">
+      <ul class="Links">
+        <li><a href="story.html" onmouseover="show('m1')">About Us</a></li>
+        <li><a href="vision.html" Span onmouseover="show('m2')">Vision</a></li>
+        <li>
+          <span onmouseover="show('m3')">Proteins</span> 
+          <div id="m3" onmouseover="show('m3')">
+            <a href="pages/catalog.html">Pre workout</a>
+            <a href="pages/featured.html">Post workout</a>
+            <a href="pages/services.html">Protein Bars</a>
+            <a href="pages/suppliers.html">Mass Gainers</a>
+			<a href="pages/suppliers.html">Vitamin/Mineral</a>
+          </div>
+        </li>
+        <li>
+          <span onmouseover="show('m4')">Accessories</span> 
+          <div id="m4" onmouseover="show('m4')">
+            <a href="pages/bmiForm.html">Shakers</a>
+            <a href="pages/tools.html">Scoops and Tubs</a>
+            <a href="pages/expert.html">Dumbells</a>
+            <a href="pages/links.html">Training Gears</a>
+          </div>
+        </li>
+        <li>
+          <span onmouseover="show('m5')">Clothing</span> 
+          <div id="m5" onmouseover="show('m5')">
+            <a href="pages/about.html">Mens</a>
+            <a href="pages/vision.html">Womens</a>
+            <a href="pages/employment.html">Clearance</a>
+            <a href="pages/news.html">First Time sale</a>
+          </div>
+        </li>
+        <li>
+          <span onmouseover="show('m6')">Dietary Needs</span> 
+          <div id="m6" onmouseover="show('m6')">
+            <a href="pages/locations.html">Vegan</a>
+            <a href="pages/feedbackForm.html">Gluten Free</a>
+          </div>
+        </li>
+        <li><a href="pages/sitemap.html" onmouseover="show('m7')">Site
+        Map</a></li>
+      </ul>
+    </nav>
+
+    </header>
+    <main>
+      <article id="textLeft">
+	  <br></br>
+        <h3><font Face="Kristen ITC"> Welcome to Paradise Nutrition<br></br>
+		 What are we!</h3>
+        <p><font Face="Kristen ITC">We’re a leading sports nutrition brand, delivering a range of quality products including protein powder,<br> vitamins and minerals, high-protein foods, snack alternatives, and performance clothing.</br> </p>
+        </font>
+
+      </article>
+      <div id="image">
+        <img id="placeholder" src="x"
+             alt="Healthy Lifestyle"
+             width="256" height="256">
+      </div>
+    </main>
+    <footer>
+      <!-- footer_content.html -->
+      Paradise Protein &copy; 2020 Porter Scobey and Pawan Lingras
+
+    </footer>
+  </body>
+</html>
